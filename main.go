@@ -43,5 +43,6 @@ func main() {
 	Log.Info("Configure release mode is %v", conf.Conf.ReleaseMode)
 	Log.Info("Configure log level is %s", conf.Conf.LogLevel)
 	Log.Info("Configure app name is %s", conf.Conf.App.Name)
+	Log.Info("Configure app backup number is %d", conf.Conf.App.BackupNumber)
 
 }
