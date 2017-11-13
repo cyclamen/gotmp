@@ -1,0 +1,12 @@
+# default false
+release_mode = false
+
+# default DEBUG, DEBUG INFO WARNNIG ERROR NOTICE
+log_level = "debug"
+
+
+[app]
+name = "NewApp"
+need_log = true
+backup_number = 3
+
